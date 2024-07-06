@@ -36,5 +36,5 @@ Ajudam na produtividade do CSS
 
 ## Outros
 - Extensão do arquivo SASS para ficar mais próximo do CSS é ".scss"
-- Para fazer com que o que eu fizer no SCSS passe para o arquivo CSS, preciso rodar o seguinte comando:
+- Para fazer com que o que eu fizer no SASS passe para o arquivo CSS, preciso rodar o seguinte comando:
 "pasta que estou ./pasta que o arquivo está/nome do arquivo ./pasta que tem que ir/nome do arquivo que tem que ir"
