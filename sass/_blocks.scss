@@ -2,11 +2,11 @@
 
     padding: 3rem 0;
 
-    h2 {
+    &__title {
         color: $color-01;
     }
 
-    ul {
+    &__list {
         list-style-type: none;
         font-size: $font-small;
         display: flex;
@@ -16,20 +16,21 @@
         width: 100%;
     }
 
-    li {
+    &__item {
         color: $color-02;
         display: block;
         margin: $space-default auto;
         width: 30%;
-        
-        .img-container {
+    }
+
+    &__img-container {
             display: block;
             height: 200px;
             overflow: hidden;
             width: 100%;
-        }
+    }
 
-        a {
+    &__button {
             background-color: $color-default;
             border-radius: 5px;
             color: white;
@@ -39,7 +40,5 @@
             padding: 4px 8px;
             text-align: center;
             text-decoration: none;
-        }
     }
-
 }

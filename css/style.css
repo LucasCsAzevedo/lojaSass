@@ -74,10 +74,10 @@ footer {
 .blocks {
   padding: 3rem 0;
 }
-.blocks h2 {
+.blocks__title {
   color: #000;
 }
-.blocks ul {
+.blocks__list {
   list-style-type: none;
   font-size: 1.2rem;
   display: flex;
@@ -86,19 +86,19 @@ footer {
   padding: 1rem 0;
   width: 100%;
 }
-.blocks li {
+.blocks__item {
   color: #000;
   display: block;
   margin: 1.5rem auto;
   width: 30%;
 }
-.blocks li .img-container {
+.blocks__img-container {
   display: block;
   height: 200px;
   overflow: hidden;
   width: 100%;
 }
-.blocks li a {
+.blocks__button {
   background-color: #559;
   border-radius: 5px;
   color: white;
@@ -114,24 +114,24 @@ footer {
   background-color: #559;
   padding: 1.5rem;
 }
-.destack h1 {
+.destack__title {
   color: #000;
   float: left;
   font-size: 3rem;
   margin-top: 0;
 }
-.destack h2 {
+.destack__sub-title {
   float: left;
   font-size: 1.2rem;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
 }
-.destack img {
+.destack__img-container {
   width: 100%;
   height: auto;
   margin: 1.5rem auto;
 }
-.destack p {
+.destack__description {
   font-size: 1.5rem;
   color: #000;
   padding: 2rem 0;
